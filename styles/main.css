@@ -147,6 +147,7 @@ img {
 .shop__more {
   text-align: center;
   margin-top: 3rem;
+  display: none;
 }
 .shop__more-btn {
   outline: 1px solid black;
@@ -195,6 +196,14 @@ img {
 }
 .shop-card__basket:hover {
   background-color: #4b1b4b;
+}
+
+.none {
+  display: none;
+}
+
+.active {
+  display: block;
 }
 
 .cart.active {

@@ -170,6 +170,7 @@ img {
     &__more {
         text-align: center;
         margin-top: 3rem;
+        display: none;
 
         &-btn {
             outline: 1px solid black;
@@ -180,6 +181,7 @@ img {
             background-color: #fff;
             transition: .2s;
             cursor: pointer;
+            
 
             &:hover {
                 background: #000;
@@ -230,6 +232,13 @@ img {
     }
 }
 
+.none {
+    display: none;
+}
+
+.active {
+    display: block;
+}
 
 .cart.active {
     right: 0;
